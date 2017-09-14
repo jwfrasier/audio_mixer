@@ -1,0 +1,22 @@
+{
+  "name": "audio_mixer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwfrasier/audio_mixer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwfrasier/audio_mixer/issues"
+  },
+  "homepage": "https://github.com/jwfrasier/audio_mixer#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
