@@ -114,3 +114,6 @@ body {
 #b:active{
   background-color: #f26fd4;
 }
+.mediabar{
+  display: none;
+}

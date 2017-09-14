@@ -1,64 +1,77 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href=".css">
-  </head>
-  <body>
 
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</head>
 
-<audio id="cAudio" controls>
-  <source src="music_notes/c_note.mp3" type="audio/mpeg">
-    <source src="/music_notes/c_note.ogg" type="audio/ogg">
-      <source src="/music_notes/c_note.wav" type="audio/wav">
-</audio>
+<body>
+  <div id="instrument">
+    <div id="c" class="box">
+      <audio class = "mediabar" id="cAudio" controls>
+      <source src="music_notes/c_note.mp3" type="audio/mpeg">
+        <source src="/music_notes/c_note.ogg" type="audio/ogg">
+          <source src="/music_notes/c_note.wav" type="audio/wav">
+      </audio>
+    </div>
 
-<audio controls>
-  <source src="music_notes/d_note.mp3" type="audio/mpeg">
-    <source src="/music_notes/d_note.ogg" type="audio/ogg">
-      <source src="/music_notes/d_note.wav" type="audio/wav">
-</audio>
+    <div id="d" class="box">
+      <audio class="mediabar" id="dAudio" controls>
+      <source src="music_notes/d_note.mp3" type="audio/mpeg">
+        <source src="/music_notes/d_note.ogg" type="audio/ogg">
+          <source src="/music_notes/d_note.wav" type="audio/wav">
+    </audio>
+    </div>
 
-<audio controls>
-  <source src="music_notes/e_note.mp3" type="audio/mpeg">
-    <source src="/music_notes/e_note.ogg" type="audio/ogg">
-      <source src="/music_notes/e_note.wav" type="audio/wav">
-</audio>
+    <div id="e" class="box">
+      <audio class="mediabar" id="eAudio" controls>
+      <source src="music_notes/e_note.mp3" type="audio/mpeg">
+        <source src="/music_notes/e_note.ogg" type="audio/ogg">
+          <source src="/music_notes/e_note.wav" type="audio/wav">
+    </audio>
+    </div>
 
-<audio controls>
-  <source src="music_notes/f_note.mp3" type="audio/mpeg">
-    <source src="/music_notes/f_note.ogg" type="audio/ogg">
-      <source src="/music_notes/f_note.wav" type="audio/wav">
-</audio>
+    <div id="f" class="box">
+      <audio class="mediabar" id="fAudio" controls>
+      <source src="music_notes/f_note.mp3" type="audio/mpeg">
+        <source src="/music_notes/f_note.ogg" type="audio/ogg">
+          <source src="/music_notes/f_note.wav" type="audio/wav">
+    </audio>
+    </div>
 
-<audio controls>
-  <source src="music_notes/g_note.mp3" type="audio/mpeg">
-    <source src="/music_notes/g_note.ogg" type="audio/ogg">
-      <source src="/music_notes/g_note.wav" type="audio/wav">
-</audio>
-        <audio controls>
-          <source src="music_notes/a_note.mp3" type="audio/mpeg">
-            <source src="/music_notes/a_note.ogg" type="audio/ogg">
-              <source src="/music_notes/a_note.wav" type="audio/wav">
-              </audio>
+    <div id="g" class="box">
+      <audio class="mediabar" id="gAudio" controls>
+      <source src="music_notes/g_note.mp3" type="audio/mpeg">
+        <source src="/music_notes/g_note.ogg" type="audio/ogg">
+          <source src="/music_notes/g_note.wav" type="audio/wav">
+    </audio>
+    </div>
 
-    <audio controls>
+    <div id="a" class="box">
+      <audio class="mediabar" id="aAudio" controls>
+      <source src="music_notes/a_note.mp3" type="audio/mpeg">
+        <source src="/music_notes/a_note.ogg" type="audio/ogg">
+          <source src="/music_notes/a_note.wav" type="audio/wav">
+          </audio>
+    </div>
+
+    <div id="b" class="box">
+      <audio class="mediabar" id="bAudio" controls>
       <source src="music_notes/b_note.mp3" type="audio/mpeg">
       <source src="/music_notes/b_note.ogg" type="audio/ogg">
       <source src="/music_notes/b_note.wav" type="audio/wav">
-
 </audio>
-<div id="instruments">
-  <div id="c" class="box"></div>
-	<div id="d" class="box"></div>
-	<div id="e" class="box"></div>
-	<div id="f" class="box"></div>
-	<div id="g" class="box"></div>
-	<div id="a" class="box"></div>
-	<div id="b" class="box"></div>
-</div>
+    </div>
 
-<script src="main.js"></script>
-  </body>
+  </div>
+
+
+
+
+</body>
+
 </html>
