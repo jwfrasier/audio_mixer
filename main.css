@@ -93,30 +93,24 @@ body {
 }
 #d:active {
   background-color: #f0421c;
-  cursor: pointer;
 }
 
 #e:active{
   background-color: #fec02d;
-  cursor: pointer;
 }
 
 #f:active{
   background-color: #20d071;
-  cursor: pointer;
 }
 
 #g:active{
   background-color: #1a9ddb;
-  cursor: pointer;
 }
 
 #a:active{
   background-color: #a13fad;
-  cursor: pointer;
 }
 
 #b:active{
   background-color: #f26fd4;
-  cursor: pointer;
 }
