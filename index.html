@@ -3,21 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href=".css">
   </head>
   <body>
 
-    <audio controls>
-      <source src="music_notes/a_note.mp3" type="audio/mpeg">
-        <source src="/music_notes/a_note.ogg" type="audio/ogg">
-          <source src="/music_notes/a_note.wav" type="audio/wav">
-    </audio>
-    <audio controls>
-      <source src="music_notes/b_note.mp3" type="audio/mpeg">
-        <source src="/music_notes/b_note.ogg" type="audio/ogg">
-          <source src="/music_notes/b_note.wav" type="audio/wav">
-    </audio>
-<audio controls>
+
+<audio id="cAudio" controls>
   <source src="music_notes/c_note.mp3" type="audio/mpeg">
     <source src="/music_notes/c_note.ogg" type="audio/ogg">
       <source src="/music_notes/c_note.wav" type="audio/wav">
@@ -46,6 +37,18 @@
     <source src="/music_notes/g_note.ogg" type="audio/ogg">
       <source src="/music_notes/g_note.wav" type="audio/wav">
 </audio>
+        <audio controls>
+          <source src="music_notes/a_note.mp3" type="audio/mpeg">
+            <source src="/music_notes/a_note.ogg" type="audio/ogg">
+              <source src="/music_notes/a_note.wav" type="audio/wav">
+              </audio>
+
+    <audio controls>
+      <source src="music_notes/b_note.mp3" type="audio/mpeg">
+      <source src="/music_notes/b_note.ogg" type="audio/ogg">
+      <source src="/music_notes/b_note.wav" type="audio/wav">
+
+</audio>
 <div id="instruments">
   <div id="c" class="box"></div>
 	<div id="d" class="box"></div>
@@ -55,5 +58,7 @@
 	<div id="a" class="box"></div>
 	<div id="b" class="box"></div>
 </div>
+
+<script src="main.js"></script>
   </body>
 </html>
